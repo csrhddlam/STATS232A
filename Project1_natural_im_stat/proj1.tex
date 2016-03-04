@@ -1,0 +1,142 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{float}
+%\usepackage{enumitem}
+
+%SetFont
+
+%SetFonts
+
+
+\title{Project \#1}
+\author{Huiyu Wang\\604--592--364}
+\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+{\bf Problem 1}
+
+\begin{enumerate}
+	\item Figure \ref{fig:step1234} and \ref{fig:step1234log} (blue line) shows the gradient histogram of natural images. The histogram has a high and sharp peak which is not like a gaussian.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step1234}
+	\caption{Gradient histogram of natural images}
+	\label {fig:step1234}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step1234log}
+	\caption{Gradient histogram of natural images (log-plot)}
+	\label {fig:step1234log}
+\end{figure}
+\item Mean = 0.00083~~~~~~~Variance = 6.73~~~~~~~Kurtosis = 18.86 \\
+We can see the histogram of natural images gradients has high kurtosis. Zero mean is obvious because the expectation of the right edge minus the left edge should be zero.
+\item The red line in Figure \ref{fig:step1234} and \ref{fig:step1234log} represents the fitted curve of generalized gaussian distribution. ($\gamma$ = 0.755, $\sigma$ = 2.39) The generalized gaussian distribution fits the histogram well. And we can notice that the shape parameter $\gamma$ is much less than 2.
+\item The yellow line in Figure \ref{fig:step1234} and \ref{fig:step1234log} represents the estimated normal distribution, which cannot fit the histogram. The real histogram has a fatter tail than a gaussian distribution.
+\item Figure \ref{fig:step5} and \ref{fig:step5log} shows the gradient histograms of natural images after down-sampling by 2 $\times$ 2 average. From the plot and the log plot, the histograms are almost the same. This demonstrates the scale invariance of natural images.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step5}
+	\caption{Gradient histogram of down-sampled natural images}
+	\label {fig:step5}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step5log}
+	\caption{Gradient histogram of down-sampled natural images (log-plot)}
+	\label {fig:step5log}
+\end{figure}
+
+\item Figure \ref{fig:step6124} and \ref{fig:step6124log} shows the gradient histogram of noise images. Since the noise is sampled from uniform distribution, the histogram of gradients should be two lines.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step6124}
+	\caption{Gradient histogram of natural images}
+	\label {fig:step6124}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step6124log}
+	\caption{Gradient histogram of natural images (log-plot)}
+	\label {fig:step6124log}
+\end{figure}
+
+Figure \ref{fig:step65} and \ref{fig:step65log} shows the gradient histograms of noise images after down-sampling by 2 $\times$ 2 average. The histograms differ a lot. So scale invariance doesn't hold for noise images.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step65}
+	\caption{Gradient histogram of down-sampled noise images}
+	\label {fig:step65}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{step65log}
+	\caption{Gradient histogram of down-sampled noise images (log-plot)}
+	\label {fig:step65log}
+\end{figure}
+
+\item Additional comparison: In Figure \ref{fig:add} and \ref{fig:addlog}, the gradient histogram of 8 $\times$ 8 averaged noise is compared with the fitted gaussian distribution. This shows the law of large numbers, and further demonstrates the difference between noise images and natural images.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{add}
+	\caption{Gradient histogram of down-sampled noise images and fitted gaussian}
+	\label {fig:add}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{addlog}
+	\caption{Gradient histogram of down-sampled noise images and fitted gaussian (log-plot)}
+	\label {fig:addlog}
+\end{figure}
+\end{enumerate}
+
+{\bf Problem 2}
+\begin{enumerate}
+\item In figure \ref{fig:Af}, $log A(f)$ against $log f$ is close to a straight line. The slope clusters to $-\frac{1}{2}$ as expected.
+\[\begin {aligned}
+& \implies A(f) \sim \frac{1}{f^{0.5}} \\
+& \implies A^2(f) \sim \frac{1}{f} \\
+& \implies A^2(\xi, \eta) \sim \frac{1}{\xi^2+\eta^2} \\
+& \implies A(\xi, \eta) \sim \frac{1}{\sqrt{\xi^2+\eta^2}}
+\end{aligned}\]
+This implies the FFT amplitude of natural images satisfies 1/f power law. Intuitively, natural images contain items of different scales (power law). If we zoom in or zoom out, the spectrum should not change. \par
+\item Figure \ref{fig:Sf} plots the integration of Fourier power over different rings. They are close to horizontal lines as expected.
+\[A^2(f) \sim \frac{1}{f} \implies S(f_0) \sim [log(2f_0) - log(f_0)] \implies S(f_0) \sim log(2)\]
+which means $S(f_0)$ is a constant over $f_0$. This result further verifies the 1/f power law. Note that the plot is  truncated to show the constant property clearly, because when $f_0$ is small $S(F_0)$ can be very large.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Af}
+	\caption{$log A(f)$ against $log f$.}
+	\label {fig:Af}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Sf}
+	\caption{$S(f_0)$ against $f_0$.}
+	\label {fig:Sf}
+\end{figure}
+
+\end{enumerate}
+{\bf Problem 3}
+From Figure \ref{fig:prob3}, the 6 images look the same, which verifies the scale invariance of natural images. We cannot tell what scale the 6 images are cropped from. That is, if we zoom in and zoom out in this world, we cannot tell the difference, which is the essence of scale invariance. Note that during the implementation, down-sampling is done by changing the scale of line segments and reprinting the image. Down sampling the image directly will change the looking of the line segments.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{prob3}
+	\caption{Cropped images from $I_1, I_2, I_3$}
+	\label {fig:prob3}
+\end{figure}
+\end{document}  
