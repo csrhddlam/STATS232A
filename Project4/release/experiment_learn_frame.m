@@ -1,11 +1,10 @@
-function [] = experiment_learn_frame()
+function [] = experiment_learn_frame(category)
 
 close all;
 learningTime = tic;
-[config, net] = frame_config('rose');
+[config, net] = frame_config(category);
 
 for layer = 1:1:config.layer_to_learn
-    
     %% Step 1: add layers
     net = add_bottom_filters(net, layer);
     
@@ -42,7 +41,9 @@ for layer = 1:1:config.layer_to_learn
     [imdb, getBatch] = convert2imdb(imgcell2mat(imgCell));
     
     %% Step 4: training
-    net = train_model_generative(config, net, imdb, getBatch, layer);
+    % if (layer == config.layer_to_learn)
+        net = train_model_generative(config, net, imdb, getBatch, layer);
+    % end
 end
 learningTime = toc(learningTime);
 hrs = floor(learningTime / 3600);
@@ -52,4 +53,4 @@ secds = mod(learningTime, 60);
 fprintf('total learning time is %d hours / %d minutes / %.2f seconds.\n', hrs, mins, secds);
 
 %% Step 5: visualize filters
-visualize_filters(net);
+visualize_filters(net,category);

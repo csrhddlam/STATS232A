@@ -17,7 +17,7 @@ config.nTileRow = 1;
 config.nTileCol = 1;
 
 % Langevin sampling iteration
-config.T = 10;
+config.T = 20;
 
 % standard deviation for reference model q(I/sigma^2)
 % no need to change.
@@ -26,12 +26,12 @@ config.Delta = 0.3;
 
 %% parameters for sampling
 % how many layers to learn
-config.layer_to_learn = 2;
+config.layer_to_learn = 1;
 
 % learning iterations for each layer
 config.nIteration = 700;
 % learning rate
-config.Gamma = 0.0008;
+config.Gamma = 0.001;
 % batch size, no need to change
 config.BatchSize = 32;
 
