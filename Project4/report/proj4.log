@@ -1,0 +1,588 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAR 2016 09:39
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**proj4.tex
+(./proj4.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen113
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen114
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks18
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks19
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip46
+\enit@outerparindent=\dimen122
+\enit@toks=\toks22
+\enit@inbox=\box28
+\enitdp@description=\count103
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@tempdima=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
+)
+\c@ContinuedFloat=\count104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count105
+\c@subtable=\count106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen130
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen131
+\extrarowheight=\dimen132
+\NC@list=\toks23
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks24
+\float@box=\box29
+\@float@everytoks=\toks25
+\@floatcapt=\box30
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count108
+) (./proj4.aux)
+\openout1 = `proj4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen133
+\scratchbox=\box31
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen134
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<bark.png, id=1, 1013.7875pt x 1013.7875pt>
+File: bark.png Graphic file (type png)
+ <use bark.png>
+Package pdftex.def Info: bark.png used on input line 34.
+(pdftex.def)             Requested size: 344.005pt x 344.00255pt.
+
+<figure/bark/layer_01_001.png, id=2, 224.84pt x 224.84pt>
+File: figure/bark/layer_01_001.png Graphic file (type png)
+
+<use figure/bark/layer_01_001.png>
+Package pdftex.def Info: figure/bark/layer_01_001.png used on input line 42.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/bark/layer_02_001.png, id=3, 224.84pt x 224.84pt>
+File: figure/bark/layer_02_001.png Graphic file (type png)
+
+<use figure/bark/layer_02_001.png>
+Package pdftex.def Info: figure/bark/layer_02_001.png used on input line 46.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/bark/layer_03_001.png, id=4, 224.84pt x 224.84pt>
+File: figure/bark/layer_03_001.png Graphic file (type png)
+
+<use figure/bark/layer_03_001.png>
+Package pdftex.def Info: figure/bark/layer_03_001.png used on input line 51.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/bark/layer_00_001.jpg, id=5, 224.84pt x 224.84pt>
+File: figure/bark/layer_00_001.jpg Graphic file (type jpg)
+
+<use figure/bark/layer_00_001.jpg>
+Package pdftex.def Info: figure/bark/layer_00_001.jpg used on input line 55.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./bark.
+png (PNG copy)>]
+<beehive.png, id=15, 1013.7875pt x 1013.7875pt>
+File: beehive.png Graphic file (type png)
+ <use beehive.png>
+Package pdftex.def Info: beehive.png used on input line 64.
+(pdftex.def)             Requested size: 344.005pt x 344.00255pt.
+ [2 <./figure/bark/layer_01_001.png (PNG copy)> <./figure/bark/layer_02_001.png
+ (PNG copy)> <./figure/bark/layer_03_001.png (PNG copy)> <./figure/bark/layer_0
+0_001.jpg>]
+<figure/beehive/layer_01_001.png, id=19, 224.84pt x 224.84pt>
+File: figure/beehive/layer_01_001.png Graphic file (type png)
+
+<use figure/beehive/layer_01_001.png>
+Package pdftex.def Info: figure/beehive/layer_01_001.png used on input line 72.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/beehive/layer_02_001.png, id=20, 224.84pt x 224.84pt>
+File: figure/beehive/layer_02_001.png Graphic file (type png)
+
+<use figure/beehive/layer_02_001.png>
+Package pdftex.def Info: figure/beehive/layer_02_001.png used on input line 76.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/beehive/layer_03_001.png, id=21, 224.84pt x 224.84pt>
+File: figure/beehive/layer_03_001.png Graphic file (type png)
+
+<use figure/beehive/layer_03_001.png>
+Package pdftex.def Info: figure/beehive/layer_03_001.png used on input line 81.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/beehive/layer_00_001.jpg, id=22, 400.49625pt x 399.4925pt>
+File: figure/beehive/layer_00_001.jpg Graphic file (type jpg)
+
+<use figure/beehive/layer_00_001.jpg>
+Package pdftex.def Info: figure/beehive/layer_00_001.jpg used on input line 85.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.01604pt.
+ [3 <./beehive.png (PNG copy)>]
+<coffee.png, id=26, 1013.7875pt x 1013.7875pt>
+File: coffee.png Graphic file (type png)
+ <use coffee.png>
+Package pdftex.def Info: coffee.png used on input line 94.
+(pdftex.def)             Requested size: 344.005pt x 344.00255pt.
+ [4 <./figure/beehive/layer_01_001.png (PNG copy)> <./figure/beehive/layer_02_0
+01.png (PNG copy)> <./figure/beehive/layer_03_001.png (PNG copy)> <./figure/bee
+hive/layer_00_001.jpg>] <figure/coffee/layer_01_001.png, id=30, 224.84pt x 224.
+84pt>
+File: figure/coffee/layer_01_001.png Graphic file (type png)
+
+<use figure/coffee/layer_01_001.png>
+Package pdftex.def Info: figure/coffee/layer_01_001.png used on input line 102.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/coffee/layer_02_001.png, id=31, 224.84pt x 224.84pt>
+File: figure/coffee/layer_02_001.png Graphic file (type png)
+
+<use figure/coffee/layer_02_001.png>
+Package pdftex.def Info: figure/coffee/layer_02_001.png used on input line 106.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/coffee/layer_03_001.png, id=32, 224.84pt x 224.84pt>
+File: figure/coffee/layer_03_001.png Graphic file (type png)
+
+<use figure/coffee/layer_03_001.png>
+Package pdftex.def Info: figure/coffee/layer_03_001.png used on input line 111.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/coffee/layer_00_001.jpg, id=33, 513.92pt x 513.92pt>
+File: figure/coffee/layer_00_001.jpg Graphic file (type jpg)
+
+<use figure/coffee/layer_00_001.jpg>
+Package pdftex.def Info: figure/coffee/layer_00_001.jpg used on input line 115.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.5037pt.
+ [5 <./coffee.png (PNG copy)>]
+<rose.png, id=37, 1013.7875pt x 1013.7875pt>
+File: rose.png Graphic file (type png)
+ <use rose.png>
+Package pdftex.def Info: rose.png used on input line 124.
+(pdftex.def)             Requested size: 344.005pt x 344.00255pt.
+ [6 <./figure/coffee/layer_01_001.png (PNG copy)> <./figure/coffee/layer_02_001
+.png (PNG copy)> <./figure/coffee/layer_03_001.png (PNG copy)> <./figure/coffee
+/layer_00_001.jpg>]
+<figure/rose/layer_01_001.png, id=41, 224.84pt x 224.84pt>
+File: figure/rose/layer_01_001.png Graphic file (type png)
+
+<use figure/rose/layer_01_001.png>
+Package pdftex.def Info: figure/rose/layer_01_001.png used on input line 132.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/rose/layer_02_001.png, id=42, 224.84pt x 224.84pt>
+File: figure/rose/layer_02_001.png Graphic file (type png)
+
+<use figure/rose/layer_02_001.png>
+Package pdftex.def Info: figure/rose/layer_02_001.png used on input line 136.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/rose/layer_03_001.png, id=43, 224.84pt x 224.84pt>
+File: figure/rose/layer_03_001.png Graphic file (type png)
+
+<use figure/rose/layer_03_001.png>
+Package pdftex.def Info: figure/rose/layer_03_001.png used on input line 141.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/rose/layer_00_001.jpg, id=44, 481.8pt x 481.8pt>
+File: figure/rose/layer_00_001.jpg Graphic file (type jpg)
+
+<use figure/rose/layer_00_001.jpg>
+Package pdftex.def Info: figure/rose/layer_00_001.jpg used on input line 145.
+(pdftex.def)             Requested size: 193.50076pt x 193.49585pt.
+ [7 <./rose.png (PNG copy)>]
+<stucco.png, id=49, 1013.7875pt x 1013.7875pt>
+File: stucco.png Graphic file (type png)
+ <use stucco.png>
+Package pdftex.def Info: stucco.png used on input line 154.
+(pdftex.def)             Requested size: 344.005pt x 344.00255pt.
+ [8 <./figure/rose/layer_01_001.png (PNG copy)> <./figure/rose/layer_02_001.png
+ (PNG copy)> <./figure/rose/layer_03_001.png (PNG copy)> <./figure/rose/layer_0
+0_001.jpg>]
+<figure/stucco/layer_01_001.png, id=53, 224.84pt x 224.84pt>
+File: figure/stucco/layer_01_001.png Graphic file (type png)
+
+<use figure/stucco/layer_01_001.png>
+Package pdftex.def Info: figure/stucco/layer_01_001.png used on input line 162.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/stucco/layer_02_001.png, id=54, 224.84pt x 224.84pt>
+File: figure/stucco/layer_02_001.png Graphic file (type png)
+
+<use figure/stucco/layer_02_001.png>
+Package pdftex.def Info: figure/stucco/layer_02_001.png used on input line 166.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/stucco/layer_03_001.png, id=55, 224.84pt x 224.84pt>
+File: figure/stucco/layer_03_001.png Graphic file (type png)
+
+<use figure/stucco/layer_03_001.png>
+Package pdftex.def Info: figure/stucco/layer_03_001.png used on input line 171.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/stucco/layer_00_001.jpg, id=56, 803.0pt x 803.0pt>
+File: figure/stucco/layer_00_001.jpg Graphic file (type jpg)
+
+<use figure/stucco/layer_00_001.jpg>
+Package pdftex.def Info: figure/stucco/layer_00_001.jpg used on input line 175.
+
+(pdftex.def)             Requested size: 193.50076pt x 193.49586pt.
+ [9 <./stucco.png (PNG copy)>]
+<water.png, id=60, 1013.7875pt x 1013.7875pt>
+File: water.png Graphic file (type png)
+ <use water.png>
+Package pdftex.def Info: water.png used on input line 184.
+(pdftex.def)             Requested size: 344.005pt x 344.00255pt.
+ [10 <./figure/stucco/layer_01_001.png (PNG copy)> <./figure/stucco/layer_02_00
+1.png (PNG copy)> <./figure/stucco/layer_03_001.png (PNG copy)> <./figure/stucc
+o/layer_00_001.jpg>] <figure/water/layer_01_001.png, id=64, 224.84pt x 224.84pt
+>
+File: figure/water/layer_01_001.png Graphic file (type png)
+
+<use figure/water/layer_01_001.png>
+Package pdftex.def Info: figure/water/layer_01_001.png used on input line 192.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/water/layer_02_001.png, id=65, 224.84pt x 224.84pt>
+File: figure/water/layer_02_001.png Graphic file (type png)
+
+<use figure/water/layer_02_001.png>
+Package pdftex.def Info: figure/water/layer_02_001.png used on input line 196.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/water/layer_03_001.png, id=66, 224.84pt x 224.84pt>
+File: figure/water/layer_03_001.png Graphic file (type png)
+
+<use figure/water/layer_03_001.png>
+Package pdftex.def Info: figure/water/layer_03_001.png used on input line 201.
+(pdftex.def)             Requested size: 193.50076pt x 193.50958pt.
+
+<figure/water/layer_00_001.jpg, id=67, 426.59375pt x 426.59375pt>
+File: figure/water/layer_00_001.jpg Graphic file (type jpg)
+
+<use figure/water/layer_00_001.jpg>
+Package pdftex.def Info: figure/water/layer_00_001.jpg used on input line 205.
+(pdftex.def)             Requested size: 193.50076pt x 193.5016pt.
+ [11 <./water.png (PNG copy)>] [12 <./figure/water/layer_01_001.png (PNG copy)>
+ <./figure/water/layer_02_001.png (PNG copy)> <./figure/water/layer_03_001.png 
+(PNG copy)> <./figure/water/layer_00_001.jpg>] <stucco4.png, id=75, 256.96pt x 
+256.96pt>
+File: stucco4.png Graphic file (type png)
+ <use stucco4.png>
+Package pdftex.def Info: stucco4.png used on input line 218.
+(pdftex.def)             Requested size: 344.005pt x 344.03053pt.
+ (./proj4.bbl
+[13 <./stucco4.png (PNG copy)>]) [14] (./proj4.aux) ) 
+Here is how much of TeX's memory you used:
+ 4816 strings out of 493089
+ 72553 string characters out of 6134842
+ 138846 words of memory out of 5000000
+ 8219 multiletter control sequences out of 15000+600000
+ 11083 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,7n,38p,835b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on proj4.pdf (14 pages, 3142977 bytes).
+PDF statistics:
+ 105 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+
